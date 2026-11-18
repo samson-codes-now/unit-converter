@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unite Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input class="input-el" type="text" />
+        <button class="btn">Convert</button>
+      </div>
+      <div class="bottom">
+        <div class="unit-wrapper">
+          <h3>Length (Meter/Feet)</h3>
+          <p>
+            <span class="length-value">1</span> meter ≈
+            <span class="meter-to-feet">3.281</span> feet |
+            <span class="length-value">1</span> foot ≈
+            <span class="feet-to-meter">0.305</span> meters
+          </p>
+        </div>
+        <div class="unit-wrapper">
+          <h3>Volume (Liters/Gallons)</h3>
+          <p>
+            <span class="volume-value">1</span> liter ≈
+            <span class="liter-to-usgallon">0.264</span> US gallons |
+            <span class="volume-value">1</span> US gallon ≈
+            <span class="usgallon-to-liter">3.785</span> liters
+          </p>
+        </div>
+        <div class="unit-wrapper">
+          <h3>Mass (Kilograms/Pounds)</h3>
+          <p>
+            <span class="mass-value">1</span> kilogram ≈
+            <span class="kilogram-to-pound">2.205</span> pounds |
+            <span class="mass-value">1</span> pound ≈
+            <span class="pound-to-kilogram">0.454</span> kilograms
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>

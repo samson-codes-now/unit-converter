@@ -1,0 +1,99 @@
+/* CSS */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 560px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -3%;
+}
+
+.input-el {
+    background-color: #6943FF;
+    border: 1px solid #B295FF;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 88px;
+    display: flex;
+    text-align: center;
+    width: 112px;
+    font-size: 58px;
+    color: white;
+    font-weight: 800
+}
+
+.btn {
+    color: ;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6943FF;
+    padding: 32px 56px;
+    gap: 32px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: #7B7B7B;
+}
+
+.unit-wrapper {
+    background-color: white;
+    padding: 32px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #F4F4F4;
+    padding: 36px 25px;
+    gap: 24px;
+    text-align: center;
+}
